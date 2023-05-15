@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0473F8902A11D9BC001EDD26 /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473F88F2A11D9BC001EDD26 /* BottomTabView.swift */; };
 		285E88BA29F2FDEF00B9B787 /* SPOTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E88B929F2FDEF00B9B787 /* SPOTApp.swift */; };
 		285E88BC29F2FDEF00B9B787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E88BB29F2FDEF00B9B787 /* ContentView.swift */; };
 		285E88BE29F2FDF100B9B787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285E88BD29F2FDF100B9B787 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0473F88F2A11D9BC001EDD26 /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
 		285E88B629F2FDEF00B9B787 /* SPOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		285E88B929F2FDEF00B9B787 /* SPOTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPOTApp.swift; sourceTree = "<group>"; };
 		285E88BB29F2FDEF00B9B787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				285E88BB29F2FDEF00B9B787 /* ContentView.swift */,
 				285E88BD29F2FDF100B9B787 /* Assets.xcassets */,
 				285E88BF29F2FDF100B9B787 /* Preview Content */,
+				0473F88F2A11D9BC001EDD26 /* BottomTabView.swift */,
 			);
 			path = SPOT;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				285E88BC29F2FDEF00B9B787 /* ContentView.swift in Sources */,
+				0473F8902A11D9BC001EDD26 /* BottomTabView.swift in Sources */,
 				285E88BA29F2FDEF00B9B787 /* SPOTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
