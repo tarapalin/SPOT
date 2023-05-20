@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum TabTitles: String, CaseIterable {
-    case house, map, bell, person
+    case house, safari, message, person
 }
 
 struct BottomTabView: View {
@@ -29,6 +29,7 @@ struct BottomTabView: View {
                     )
                     .scaleEffect(currentTab == selectedTab ? 1.25 : 1.0)
                     .font(.system(size: 20))
+                    .foregroundColor(Color.white)
                     .onTapGesture {
                         withAnimation(.easeInOut(duration: 0.1)) {
                             selectedTab = currentTab
@@ -39,7 +40,7 @@ struct BottomTabView: View {
                 }
             }
             .frame(width: nil, height: 50)
-            .background(.thinMaterial)
+            .background(Color.blue)
         }
     }
 }
